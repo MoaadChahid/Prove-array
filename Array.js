@@ -1,25 +1,26 @@
 
 //ARRAY
 
-
+// elenco Frutta
 let Frutta = ["Mela", "Banana", "Arancia", "Pera"];
 
 console.log(`Frutta disponibile: ${Frutta}`);
 
+//Rimozione dell'ulitmo elemento e aggiunta di un nuovo frutto
 Frutta.pop();
-
-console.log(`Aggiornamento frutta, la frutta disponibile è: ${Frutta}`);
 
 Frutta.push("Kiwi");
 
-
 console.log(`Aggiornamento frutta, la frutta disponibile è: ${Frutta}`);
 
+// Sostituzione del primo frutto con fragola
 Frutta.shift();
 
 Frutta.unshift("Fragola");
 
 console.log(`Aggiornamento frutta, la frutta disponibile è: ${Frutta}`);
+
+//Rimozione del primo ed ultimo frutto, aggiunta di 3 nuovi frutti
 
 Frutta.shift();
 
@@ -30,7 +31,9 @@ Frutta.unshift("Ananas", "Avocado", "Mandarino");
 
 console.log(`Aggiornamento frutta, la frutta disponibile è: ${Frutta}`);
 
-console.log(`La lunghezza del gruppo frutta cioè: ${Frutta} e di: ${Frutta.length}`)
+// dichiarazione di quanto è lungo il gruppo FRUTTA, e descrizione del gruppo.
+
+console.log(`Ora in questo momento ho a dispozione questi frutti: ${Frutta} ed la lunghezza del gruppo frutta e di: ${Frutta.length}`)
 
 // Funzioni
 
